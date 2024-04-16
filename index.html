@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Work</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css"> 
+     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script defer src="funcions.js"></script>
+</head>
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <h1 class="Logo">After Work</h1>
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#about">nosotros</a>
+            <a href="#products">Productos</a>
+            <a href="#review">reseñas </a>
+            <a href="#contact">contáctanos</a>
+        </nav>
+        <div class="icons">
+            
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+            
+        </div>
+    </header>
+     <!--Header section ends-->
+
+
+     <!--Home section starts-->
+     <section id="container-slider">	
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <li style="background-image: url('imagens/cafe.jpg'); z-index:0; opacity: 1;">
+            <div class="content_slider" >
+              <div>
+                <h2>Emprendimiento empresarial</h2>
+            <p>Descubra en qué consiste el emprendimiento empresarial por medio de 5 estrategias fundamentales.</p>
+            <a href="#productos" class="btnSlider"> compra ahora </a>
+          </div>
+            </div>
+          </li>
+          <li style="background-image: url('imagens/piña\ colada.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Negocios</h2>
+            <p>Recursos, guías, herramientas y consejos para emprender, crear tu empresa o iniciar un negocio exitoso</p>
+            <a href="#" class="btnSlider"> compra ahora</a>
+          </div>
+            </div>
+          </li>
+          <li style="background-image: url('imagens/margarita\ .jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Estrategias de negocio</h2>
+            <p>Las estrategias de negocio representan planes o métodos...</p>
+            <a href="#" class="btnSlider"> compra ahora </a>
+          </div>
+            </div>
+          </li>
+       </ul>
+     </section>
+     
+
+
+    <!--Home section ends-->
+
+
+  <!--About section starts-->
+<section class="about" id="about">
+    <h1 class="heading"><span>Sobre </span> nosotros</h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="imagens/Video .mp4" loop autoplay muted></video>
+            
+        </div>
+        <div class="content">
+            <h3>por Qué elegirnos?</h3>
+            <p>Pero lo que realmente distingue a After Work es su exquisito menú. Imaginen deleitarse con platillos preparados con ingredientes frescos y sabores que despiertan los sentidos. Desde opciones ligeras hasta platos más sustanciosos, seguro encontrarán algo que satisfaga sus antojos.
+              
+            <p>Lo que hace que After Work sea tan especial es la atmósfera vibrante y amigable que se crea. Ya sea que vengan con amigos para celebrar un logro o simplemente deseen relajarse después de un día duro, este lugar es perfecto para compartir momentos memorables.
+            
+            <p>En After Work, la magia comienza tan pronto como cruzamos la puerta. Es un lugar donde puedes dejar atrás el estrés y sumergirte en un ambiente relajado y acogedor. ¿La mejor parte? Tienen una selección impresionante de bebidas que se adaptan a todos los gustos. Desde cócteles creativos hasta cervezas artesanales, hay algo para cada preferencia.</p>
+
+        </div>
+    </div>
+</section>
+
+  <!--About section ends-->
+
+<!--icons section starts-->
+
+<section class="icons-container" id="productos">
+    <div class="icons">
+        <img src="/imagens/deliberi.png" alt="">
+        <div class="info">
+            <h3>Delivery</h3>
+            <span>en todos los pedidos </span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="/images/icon-2.png" alt="">
+        <div class="info">
+            <h3>comodidad</h3>
+            <span>Asegurada</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="/images/icon-3.png" alt="">
+        <div class="info">
+            <h3> ofertas</h3>
+            <span>En diversos productos </span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="/images/icon-4.png" alt="">
+        <div class="info">
+            <h3>calidad</h3>
+            <span>En todos los productos</span>
+        </div>
+    </div>
+</section>
+
+<!--icons section ends-->
+
+<!--Products section stars-->
+
+<section class="products" id="products">
+    <h1 class="heading">nuestros <span>Productos</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="imagens/piña colada.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>piña colada</h3>
+                <div class="price">$17.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="/imagens/maltiada de caramelo.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>malteada de caramelo</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="/imagens/cafe.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>capuchino</h3>
+                <div class="price">$14.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="/imagens/maltiada de nutela.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>maltiada de Nutella</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-17%</span>
+            <div class="image">
+                <img src="/imagens/margarita .jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>margarita</h3>
+                <div class="price">$14.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-3%</span>
+            <div class="image">
+                <img src="/imagens/mojito de chinola.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>mojito de chinola</h3>
+                <div class="price">$18.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-18%</span>
+            <div class="image">
+                <img src="/imagens/mojitos de fresa.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>mojito de fresa</h3>
+                <div class="price">$15.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="/imagens/frape de caramelo.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>frape de caramelo</h3>
+                <div class="price">$17.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="/imagens/maltiada de orion.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Maltiada De Orion</h3>
+                <div class="price">$11.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-11%</span>
+            <div class="image">
+                <img src="/imagens/quesadilla.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Quesadilla</h3>
+                <div class="price">$11.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-11%</span>
+            <div class="image">
+                <img src="/imagens/salchipapa.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>salchipapa</h3>
+                <div class="price">$11.99 <span>$15.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-9%</span>
+            <div class="image">
+                <img src="/imagens/maltiada de chocolate.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Maltiada De Chocolate </h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-9%</span>
+            <div class="image">
+                <img src="/imagens/papas fritas con queso .jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>papas fritas con queso cheddar</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-9%</span>
+            <div class="image">
+                <img src="/imagens/hamburguesa.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Hamburguesa con papas fritas</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-9%</span>
+            <div class="image">
+                <img src="/imagens/tequeños de queso.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Tequeños de queso</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-9%</span>
+            <div class="image">
+                <img src="/imagens/maltiada de chispas .jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">add to cart</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>malteadas  de sprinkles</h3>
+                <div class="price">$13.99 <span>$15.99</span></div>
+            </div>
+        </div>
+
+
+        
+
+
+           
+        </div>
+    </div>
+</section>
+<!--Products section ends-->
+
+<br>
+<br>
+<br>
+<br>
+
+<!--review section starts-->
+<section class="review" id="review">
+    <h1 class="heading"> Opinión <span> del cliente</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <div class="user">
+                <img src="/images/pic-1.png" alt="">
+                <div class="user-info">
+                    <h3>charles Deco</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <div class="user">
+                <img src="/imagens/cafe frio.jpg" alt="">
+                <div class="user-info">
+                    <h3>sharon michel</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <div class="user">
+                <img src="/images/pic-3.png" alt="">
+                <div class="user-info">
+                    <h3>Abdullahi Ali</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur voluptas quibusdam voluptate aperiam eligendi, at velit enim? Odit quibusdam possimus necessitatibus atque at quia ut omnis, sunt corrupti! Id!</p>
+            <div class="user">
+                <img src="/imagens/" alt="">
+                <div class="user-info">
+                    <h3>Sofia wick</h3>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <span class="fas fa-quote-right"></span>
+        </div>
+    </div>
+</section>
+
+
+
+<!--icons section ends-->
+
+<!--Products section stars-->
+
+
+<!--Products section ends-->
+
+
+<!--review section starts-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--review section ends-->
+
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Reporta tus</span> inquietudes</h1>
+    <div class="row">
+        <form action="https://formspree.io/f/xkndqrkv" method="POST">
+            <input type="text" class="box" placeholder="Nombre" name="Nombre">
+            <input type="email" class="box" placeholder="Email" name="_replyto">
+            <input type="text" class="box" placeholder="Número" name="Número">
+            <textarea class="box" placeholder="Mensaje" name="Mensaje" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar mensaje" class="btn">
+        </form>
+        <div class="image">
+            <img src="/imagens/logo.png" alt="">
+        </div>
+
+
+
+
+ 
+
+<!--review section ends-->
+
+
+<!--contact section starts-->
+
+
+<!--footer section ends-->
+
+
+<!--review section ends-->
+
+
+<!--contact section starts-->
+
+
+<!--footer section ends-->
+<footer class="footer">
+    <div class="container">
+        
+
+
+
+
+
